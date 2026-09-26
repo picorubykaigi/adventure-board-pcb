@@ -1,0 +1,152 @@
+(footprint "LED_0603_Compact_P2.54mm"
+	(version 20240108)
+	(generator "picoboard")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0603 (1608 Metric), compact land (IPC Least density) for 2.54mm matrix pitch. Total land length 2.25mm -> 0.29mm gap at 2.54mm pitch. Pad1=Cathode, Pad2=Anode.")
+	(tags "LED 0603 1608Metric compact matrix")
+	(attr smd)
+	(property "Reference" "LED**"
+		(at 0 -1.4 0)
+		(layer "F.Fab")
+		(uuid "b1000000-0000-4000-8000-000000000001")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "LED_0603"
+		(at 0 1.4 0)
+		(layer "F.Fab")
+		(uuid "b1000000-0000-4000-8000-000000000002")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1000000-0000-4000-8000-000000000003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1000000-0000-4000-8000-000000000004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1000000-0000-4000-8000-000000000005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2000000-0000-4000-8000-000000000001")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2000000-0000-4000-8000-000000000002")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2000000-0000-4000-8000-000000000003")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.4 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2000000-0000-4000-8000-000000000004")
+	)
+	(fp_line
+		(start -0.4 0)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2000000-0000-4000-8000-000000000005")
+	)
+	(fp_line
+		(start -1.125 -0.55)
+		(end -1.125 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3000000-0000-4000-8000-000000000001")
+	)
+	(fp_rect
+		(start -1.2 -0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b4000000-0000-4000-8000-000000000001")
+	)
+	(pad "1" smd roundrect
+		(at -0.725 0)
+		(size 0.8 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "b5000000-0000-4000-8000-000000000001")
+	)
+	(pad "2" smd roundrect
+		(at 0.725 0)
+		(size 0.8 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "b5000000-0000-4000-8000-000000000002")
+	)
+)
