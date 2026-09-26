@@ -30,6 +30,8 @@ production/pv1/                                      PV1 発注時の製造デ�
 
 ## 再発注手順（JLCPCB）
 
+> 暫定版です。発注オプションは今後見直します。
+
 製造データは KiCad の [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) プラグインで出力したものです。
 
 1. JLCPCB の PCB 注文画面で `production/pv1/adventure-board.zip` をアップロードする
@@ -50,7 +52,7 @@ production/pv1/                                      PV1 発注時の製造デ�
 
 ## ライセンス
 
-Copyright kishima 2026.
+Copyright PicoRubyKaigi 2026.
 
 This source describes Open Hardware and is licensed under the CERN-OHL-P v2.
 You may redistribute and modify this documentation and make products using it
