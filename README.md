@@ -26,6 +26,7 @@ production/v1/                                       V1（量産版）の製造�
   positions.csv          部品配置データ（CPL）
   designators.csv        リファレンス一覧
   netlist.ipc            IPC-D-356 ネットリスト
+  adventure-board-schematic.pdf  回路図 PDF
 production/pv1/                                      PV1（量産試作）発注時の製造データ（参考）
 ```
 
