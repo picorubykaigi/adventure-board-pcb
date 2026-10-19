@@ -30,25 +30,14 @@ production/v1/                                       V1（量産版）の製造�
 production/pv1/                                      PV1（量産試作）発注時の製造データ（参考）
 ```
 
+製造データは KiCad の [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) プラグインで出力したものです。
+
 ## リビジョン履歴
 
 | リビジョン | 内容 |
 |---|---|
 | V1 | 量産版。下側 2 つの取付穴を上側と同じく角から 4.5 mm の位置に変更、シルクの「PV1」表記を削除 |
 | PV1 | 量産試作 |
-
-## 再発注手順（JLCPCB）
-
-> 暫定版です。発注オプションは今後見直します。
-
-製造データは KiCad の [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) プラグインで出力したものです。
-
-1. JLCPCB の PCB 注文画面で `production/v1/adventure-board.zip` をアップロードする
-2. 層数 4、板厚 1.6 mm、表面処理 HASL を指定する
-3. PCB Assembly を有効にし、`production/v1/bom.csv` と `production/v1/positions.csv` をアップロードする
-4. 部品の配置・回転をプレビューで確認して発注する
-
-データを再生成する場合は、KiCad 9 で `adventure-board.kicad_pcb` を開き、Fabrication Toolkit で出力してください。
 
 ## 3D モデルについて
 

@@ -6691,7 +6691,7 @@
 		)
 		(uuid "0d8fdb25-c61e-4313-b5ee-52da9d246e57")
 	)
-	(text "Staus LED\n"
+	(text "Status LED\n"
 		(exclude_from_sim no)
 		(at 147.066 190.246 0)
 		(effects
